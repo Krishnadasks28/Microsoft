@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bodystyle{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 70%;
+}
+
+.slider-text{
+    color: black;
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    margin-bottom:7%;
+    text-align: left
+}
+
+.caption-align{
+   margin-left: 45%;
+}
+
+main{
+    margin: 40px 0px;
+}
+
+.main-mobile{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mstore{
+    width: 350px;
+}
+
+.msstyle{
+    width: 100%;
+    height: 450px;
+    background-image: url(Highlight-Hero-Windows11-GlobalLaunch_VP5-1596x600.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 20px 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.socialmedia{
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top: 30px;
+    height: auto;
+    background-color: rgb(242, 242, 242);
+    padding: 30px 0;
+}
+
+ footer a{
+    font-size: 11px;
+    text-decoration: none;
+    color:#616161;
+}
+
+footer a:hover{
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+}
+
+
+
+@media screen and (max-width:667px){
+    .msstyle{
+        height: 200px;
+    }
+}
